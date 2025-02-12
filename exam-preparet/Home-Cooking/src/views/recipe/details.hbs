@@ -1,0 +1,41 @@
+
+        <article class="recipe-detail">
+            <img src="{{recipe.image}}"
+                alt="Spaghetti Carbonara">
+            <h2>{{recipe.title}}</h2>
+            <p>{{recipe.description}}</p>
+
+            <h3>-----------------------------------------------------</h3>
+
+            <h3>Ingredients:</h3>
+            <p>{{recipe.ingredients}}</p>
+
+            <h3>-----------------------------------------------------</h3>
+
+            <h3>Instructions:</h3>
+            <p>{{recipe.instructions}}</p>
+
+            <h3>-----------------------------------------------------</h3>
+
+                <h3>People Who Recommend: {{recipe.recommendList.length}}</h3>
+        </article>
+
+        <div class="command">
+          
+{{#if user}}
+  {{!-- Ако потребителят е създателят на рецептата, показваме Edit и Delete --}}
+  {{#if isCreator}}
+    <a href="/recipes/{{recipe.id}}/edit">Edit</a>
+    <a href="/recipes/{{recipe.id}}/delete">Delete</a>
+  {{else}}
+    {{!-- Ако потребителят не е създател и е препоръчал рецептата, показваме съобщението --}}
+    {{#if hasPreferred}}
+      <p>You've already recommended this recipe!</p>
+    {{else}}
+      {{!-- Ако потребителят не е препоръчал, показваме бутона за Recommend --}}
+      <a href="/recipes/{{recipe.id}}/recommend">Recommend</a>
+    {{/if}}
+  {{/if}}
+{{/if}}
+
+        </div>
