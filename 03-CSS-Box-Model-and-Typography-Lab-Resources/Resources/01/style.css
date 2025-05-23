@@ -1,0 +1,40 @@
+
+header{
+    border: 2px solid;
+    padding: 1em;
+}
+.top{
+    border: 1px solid;
+    padding: 1em;
+}
+main{
+    border: 2px solid;
+    margin-top: 1em;
+    position: relative;
+    height: 87px; ;
+    padding: 1em;
+}
+
+.main-p{
+    display: inline;
+    padding: 15px;
+    border: 1px solid;
+    position: relative;
+    bottom: 10px;
+}
+
+footer{
+    border: 2px solid;
+    margin-top: 1em;
+      height: 11em;
+      padding: 1em;
+      /* position: relative; */
+}
+.down{
+    display: inline;
+    padding: 1.2em;
+     border: 1px solid;
+     position: relative;
+     top: 50px;
+     margin: 1em;
+}

@@ -1,0 +1,20 @@
+header{
+    border: 2px solid;
+}
+.top{
+    padding: 20px;
+}
+main{
+    border: 2px solid;
+    margin-top: 1em;
+}
+.main-p{
+    padding: 10px 30px 20px 40px;
+}
+footer{
+    border: 2px solid;
+    margin-top: 1em;
+}
+.down{
+    padding: 5%;
+}

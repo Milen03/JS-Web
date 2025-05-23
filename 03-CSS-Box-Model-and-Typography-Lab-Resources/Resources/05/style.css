@@ -1,0 +1,25 @@
+header{
+    border: 2px solid;
+    height: 200px;
+    margin-bottom: 1em; 
+}
+section{
+    border: 2px solid;
+    height: 50%;
+    margin-bottom: 1em; 
+}
+
+main{
+    border: 2px solid;
+    height: 50vh;
+    margin-bottom: 1em;
+}
+
+footer{
+    border: 2px solid;
+    min-height: 100px;
+    max-height: 300px;
+}
+p{
+    padding: 10px;
+}

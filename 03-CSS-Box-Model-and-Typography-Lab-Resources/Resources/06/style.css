@@ -1,0 +1,29 @@
+.top{
+    border: 2px solid;
+    width: 300px;
+    height: 100px;
+}
+p{
+    text-align: center;
+}
+.mid{
+    border: 2px dashed;
+    width: 300px;
+    height: 100px;
+    margin-top:1em; ;
+}
+.mid-2{
+    border: 2px dotted;
+    width: 300px;
+    height: 100px;
+    margin-top:1em; ;
+}
+.down{
+    border-top:dashed;
+    border-bottom: dashed;
+    border-left: solid;
+    border-right: solid;
+    width: 300px;
+    height: 100px;
+    margin-top:1em; ;
+}

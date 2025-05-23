@@ -1,0 +1,23 @@
+header{
+    border: 2px solid;
+    width: 300px;
+    margin-bottom: 1em;
+}
+
+section{
+    border: 2px solid;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+main{
+    border: 2px solid;
+    width: 50vw;
+    margin-bottom: 1em;
+}
+
+footer{
+    border:  2px solid;
+    min-width: 100px;
+    max-width: 300px;
+}
