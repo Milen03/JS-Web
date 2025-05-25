@@ -1,0 +1,73 @@
+/* --- Reset Box Sizing --- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Container / Card --- */
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-decoration: none;
+    color:  inherit; /*change text*/
+    margin:  2rem auto; /*position centar cart*/
+}
+
+/*--- Media --- */
+.card .media img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* --- Основно Събържание --- */
+
+
+.card .main > strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0.75rem;
+    line-height: 1.3; /* -- Разтояние между редовете --*/
+}
+
+.card .main .dec {
+    display: block;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* --- Footer --- */
+.card .footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-top:1px solid #eee ;
+}
+
+.card .footer span:first-child{
+    font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.card .footer span:last-child{
+    font-style:italic;
+    font-size: 0.85rem;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
