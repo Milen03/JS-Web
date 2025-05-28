@@ -1,0 +1,39 @@
+/* Common styles (copied from Task 1) */
+.flex-container {
+  display: flex;
+  border: 2px solid #000;
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #f0f0f0;
+}
+
+.flex-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+/* New alignment classes */
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
