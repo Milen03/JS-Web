@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+body{
+    background-color: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+body > *{
+    width: 100%;
+}
+
+.section {
+    background: #fff;
+    max-width: 100ch;
+    margin: 0 auto;
+    padding: 1.5em 1.2em;
+    box-shadow: 0 0 1em rgb(0, 0, 0,0.2);
+    border-radius: 0.3;
+    display: flex;
+    gap: 1em;
+}
+.calendar{
+    display: flex;
+gap: 0;
+}
+.calendar > * {
+border: 1px solid #ccc;
+flex: 1 1 auto;
+}
+
+.calendar .main,
+.calendar .aside{
+display: flex;
+flex-direction: column;
+}
+.calendar .main > *,
+.calendar .aside > * {
+    flex-grow: 1;
+}
+
+.calendar .aside{
+flex-basis: 30ch;
+
+}
+
+
+
+.calendar .aside div{
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+
+.calendar .row{
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar .row > *{
+    flex-grow: 1;
+}
+
+.calendar .row header{
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.calendar .row header h2{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.calendar .row > ul{
+    display: flex;
+}
+
+.calendar .row > ul li{
+    flex: 1 1 auto;
+    display: block;
+    text-align: center;
+    padding: 1em;
+border: 1px solid #ccc;
+}
